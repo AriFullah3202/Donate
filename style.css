@@ -144,7 +144,29 @@ section .donate-today-taka-input-text{
     border: 1px solid #dfaa1785;
 
 }
+/* situation news  */
+.present-situation-news{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 10%;
+    
+}
+#half-width{
+ width: 40%;
+ padding: 0% 5%;
+ border: 2px soild white;
+}
 
+#half-width img{
+width : 90%;
+}
+
+
+
+
+ /* footer  */
 footer {
     text-align: center;
     background-color: #121212;
@@ -162,6 +184,13 @@ footer h3 {
 footer p {
     margin: 0%;
     color: white;
+}
+/* situation news  */
+.present-situation-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 10%;
 }
 
 
