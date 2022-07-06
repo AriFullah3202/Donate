@@ -45,11 +45,12 @@ body{
     padding: 15px 30px;
     border-radius: 5px;
 }
+/* donate section */
 
 .donate-today{
     display: flex;
     flex-direction: column;
-    padding: 8% 10%;
+    padding: 4% 10%;
     text-align: center
     
     
@@ -60,8 +61,10 @@ body{
 
     
 }
-.donate-today-marktk{
-    border: 3px solid red;
+section .donate-today-marktk{
+    color: red;
+    border: #dd0303;
+
 }
 
 section .donate-today-alltaka h1{
@@ -90,10 +93,61 @@ section .donate-today-taka-input-text{
   section .donate-today-taka-button{
       padding: 4% 10%;
   }
+
+  /*  Donate plan */
+
+
+  .donate-plan{
+      display: flex;
+      flex-direction: column;
+  }
+
+    .donate-plan-details{
+        text-align: center;
+        padding: 0% 10%;
+    }
+    #every-item{
+        padding: 0% 10%;
     
+    }
+.type-of-donate-plan{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 3% 8%;
+
+}
 
 
-   
+.donate-plan-name{
+    
+        padding: 6% 2%;
+        width: 26%;
+        margin: 0% 1%;
+        border-radius: 5px;
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    
+}
+#food {
+    background: #4F9DA61A;
+    border: 1px solid #4F9DA65a;
+}
+
+#shelter {
+    background: #FF59591A;
+    border: 1px solid #ff59595a;
+
+}
+
+#medicine {
+    background: #FFF4D6;
+    border: 1px solid #dfaa1785;
+
+}
+
+
+
+
 
 
 
