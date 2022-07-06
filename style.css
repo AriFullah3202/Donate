@@ -145,7 +145,24 @@ section .donate-today-taka-input-text{
 
 }
 
+footer {
+    text-align: center;
+    background-color: #121212;
+    padding: 30px;
+    margin: 0%;
+}
 
+footer h3 {
+    color: rgb(89, 255, 130);
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0%;
+}
+
+footer p {
+    margin: 0%;
+    color: white;
+}
 
 
 
