@@ -162,6 +162,26 @@ section .donate-today-taka-input-text{
 #half-width img{
 width : 90%;
 }
+/* to get my update */
+.get-my-update{
+    display : flex;
+    flex-direction:  column;
+    align-items: center;
+    padding: 4% 10%;
+
+}
+.text-center{
+    text-align: center;
+    padding: 4%;
+}
+.email-box{
+    background-color: antiquewhite;
+    padding: 4% ;
+}
+.email-box input:focus {
+    outline: none;
+    border-bottom: 8px solid #DADADA;
+}
 
 
 
